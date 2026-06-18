@@ -14,9 +14,8 @@ export const PROFILE = {
 
 export const SOCIAL = {
   email: 'tdarpitha2004@gmail.com',
-  // TODO: replace these with your real handles
-  github: 'https://github.com/your-username',
-  linkedin: 'https://www.linkedin.com/in/your-handle',
+  github: 'https://github.com/td2004',
+  linkedin: 'www.linkedin.com/in/arpitha-thogarapalli-269647232',
   resume: '/resume.pdf',
 };
 
