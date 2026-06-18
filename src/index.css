@@ -1,0 +1,40 @@
+/* Global styles. MUI's CssBaseline handles most resets; this file adds
+   small touches MUI doesn't cover. */
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(circle at 15% -10%, rgba(124, 92, 255, 0.15), transparent 40%),
+    radial-gradient(circle at 90% 10%, rgba(34, 211, 238, 0.12), transparent 45%),
+    #0b0d12;
+  background-attachment: fixed;
+}
+
+::selection {
+  background: rgba(124, 92, 255, 0.4);
+}
+
+a {
+  color: inherit;
+}
+
+/* Page transition: subtle fade-in for route content */
+.page-enter {
+  animation: fadeIn 0.35s ease both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
