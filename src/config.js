@@ -60,7 +60,7 @@ export const PROJECTS = [
       'A clean-room Monte Carlo engine for network capacity planning. It simulates thousands of randomised traffic scenarios, builds the distribution of peak link load, and reads off P50/P95/P99 peaks and the probability of congestion — all live in the browser, no backend.',
     tags: ['Monte Carlo', 'Simulation', 'Statistics', 'Data analysis', 'React', 'Canvas'],
     href: '/projects/bandwidth-simulator',
-    repo: 'https://github.com/your-username/portfolio',
+    repo: 'https://github.com/td2004/bandwidth-simulator',
     featured: true,
   },
   {
@@ -70,7 +70,7 @@ export const PROJECTS = [
       'Ask my portfolio anything. A retrieval-augmented generation assistant that searches a knowledge base about my work, retrieves the most relevant passages, and answers with cited sources. Runs entirely in the browser with an optional LLM backend.',
     tags: ['RAG', 'Embeddings', 'Vector search', 'React', 'Serverless'],
     href: '/projects/rag-assistant',
-    repo: 'https://github.com/your-username/portfolio',
+    repo: 'https://github.com/td2004/rag-assistant',
     featured: true,
   },
   {
@@ -80,7 +80,7 @@ export const PROJECTS = [
       'Live data viewer for the largest ASX-listed companies, sortable by price and market cap. Backed by a serverless function that proxies a financial data API.',
     tags: ['React', 'MUI', 'Vercel Serverless', 'REST API'],
     href: '/projects/stock-tracker',
-    repo: 'https://github.com/your-username/portfolio',
+    repo: 'https://github.com/td2004/stock-tracker',
     featured: true,
   },
   {
@@ -90,7 +90,7 @@ export const PROJECTS = [
       'Generate a QR code from any URL or text, then download it as a PNG. Pure client-side — no backend, no tracking.',
     tags: ['React', 'MUI', 'Canvas API', 'SVG'],
     href: '/projects/qr-generator',
-    repo: 'https://github.com/your-username/portfolio',
+    repo: 'https://github.com/td2004/qr-generator',
     featured: false,
   },
 ];

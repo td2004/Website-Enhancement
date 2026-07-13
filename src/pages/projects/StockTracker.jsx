@@ -318,7 +318,7 @@ export default function StockTracker() {
               <Box sx={{ mt: 3 }}>
                 <Button
                   component="a"
-                  href="https://github.com/your-username/portfolio"
+                  href="https://github.com/td2004/stock-tracker"
                   target="_blank"
                   rel="noopener noreferrer"
                   startIcon={<GitHubIcon />}

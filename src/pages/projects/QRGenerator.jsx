@@ -216,7 +216,7 @@ export default function QRGenerator() {
             />
             <Button
               component="a"
-              href="https://github.com/your-username/portfolio"
+              href="https://github.com/td2004/qr-generator"
               target="_blank"
               rel="noopener noreferrer"
               startIcon={<GitHubIcon />}

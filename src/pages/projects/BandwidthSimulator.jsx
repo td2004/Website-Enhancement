@@ -244,7 +244,7 @@ export default function BandwidthSimulator() {
               <Box sx={{ mt: 3 }}>
                 <Button
                   component="a"
-                  href="https://github.com/your-username/portfolio"
+                  href="https://github.com/td2004/bandwidth-simulator"
                   target="_blank"
                   rel="noopener noreferrer"
                   startIcon={<GitHubIcon />}

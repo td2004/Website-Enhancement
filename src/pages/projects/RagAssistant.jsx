@@ -238,7 +238,7 @@ export default function RagAssistant() {
               <Box sx={{ mt: 3 }}>
                 <Button
                   component="a"
-                  href="https://github.com/your-username/portfolio"
+                  href="https://github.com/td2004/rag-assistant"
                   target="_blank"
                   rel="noopener noreferrer"
                   startIcon={<GitHubIcon />}
