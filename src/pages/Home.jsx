@@ -67,7 +67,7 @@ export default function Home() {
         >
           {PROFILE.role} and {PROFILE.degree.toLowerCase()} student at{' '}
           {PROFILE.university}. I build clean, pragmatic web apps with React and
-          Node — and care about the small details that make them feel finished.
+          Node and care about the small details that make them feel finished.
         </Typography>
 
         <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>

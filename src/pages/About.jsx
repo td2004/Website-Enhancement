@@ -53,13 +53,13 @@ export default function About() {
           </Typography>
           <Typography variant="body1" sx={{ fontSize: '1.05rem', lineHeight: 1.8, mb: 3 }} color="text.secondary">
             I&apos;m most comfortable in JavaScript and React, and I enjoy the
-            full loop — designing the UI, wiring up the data layer, deploying
+            full loop designing the UI, wiring up the data layer, deploying
             it, and iterating from there. Outside of coursework I&apos;ve built
             a financial data viewer, a QR generator, and a few smaller utilities
             you can find on this site.
           </Typography>
           <Typography variant="body1" sx={{ fontSize: '1.05rem', lineHeight: 1.8 }} color="text.secondary">
-            Currently looking for graduate software engineering roles for 2026
+            Currently looking for graduate Software Engineering Roles for 2026
             — feel free to{' '}
             <Box
               component="a"

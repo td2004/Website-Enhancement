@@ -80,7 +80,7 @@ export default function Projects() {
           More on the way.
         </Typography>
         <Typography color="text.secondary">
-          I&apos;m actively building out new things — check back, or follow me on
+          I&apos;m actively building out new things check back, or follow me on
           GitHub for the latest.
         </Typography>
       </Box>
