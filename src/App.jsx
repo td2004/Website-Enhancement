@@ -9,6 +9,7 @@ import Contact from './pages/Contact.jsx';
 import QRGenerator from './pages/projects/QRGenerator.jsx';
 import StockTracker from './pages/projects/StockTracker.jsx';
 import RagAssistant from './pages/projects/RagAssistant.jsx';
+import Agent from './pages/projects/Agent.jsx';
 import BandwidthSimulator from './pages/projects/BandwidthSimulator.jsx';
 import NotFound from './pages/NotFound.jsx';
 
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/projects/qr-generator" element={<QRGenerator />} />
           <Route path="/projects/stock-tracker" element={<StockTracker />} />
           <Route path="/projects/rag-assistant" element={<RagAssistant />} />
+          <Route path="/projects/portfolio-agent" element={<Agent />} />
           <Route path="/projects/bandwidth-simulator" element={<BandwidthSimulator />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />

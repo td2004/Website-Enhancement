@@ -54,6 +54,16 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    slug: 'portfolio-agent',
+    title: 'Portfolio AI Agent',
+    summary:
+      'An AI agent — not just a chatbot. It reasons about your question, decides which tools to call (portfolio search, live ASX stock data, or my GitHub repos), runs them, and answers from the results — with every tool call shown. Built on a Claude tool-use loop.',
+    tags: ['Agentic AI', 'Tool use', 'Claude', 'React', 'Serverless'],
+    href: '/projects/portfolio-agent',
+    repo: 'https://github.com/td2004/portfolio-agent',
+    featured: true,
+  },
+  {
     slug: 'bandwidth-simulator',
     title: 'Bandwidth Monte Carlo Simulator',
     summary:

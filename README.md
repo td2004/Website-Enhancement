@@ -35,6 +35,14 @@ cited. Generation runs through a Vercel serverless function (so the API key
 never reaches the client) and gracefully falls back to an on-device extractive
 answer when no key is configured — the demo always works.
 
+### Portfolio AI Agent
+An AI agent — not just a chatbot. A Vercel serverless function runs a Claude
+tool-use loop: the model reasons about your question, decides which tools to
+call (portfolio search, live ASX stock data, or my GitHub repos), the server
+runs them, and it loops until it can answer — with every tool call shown. The
+tools reuse pieces already running on the site (the RAG knowledge base and the
+stock proxy) rather than re-implementing them.
+
 ### ASX Top 50 Stock Tracker
 Live data viewer for the largest ASX-listed companies, sortable by price and
 market cap. A Vercel serverless function proxies Financial Modeling Prep to
@@ -72,15 +80,22 @@ backend at all.
 
 ## Environment variables
 
-Both keys are **optional** — the site works without them thanks to the
-fallbacks described above. Copy `.env.example` to `.env` for local serverless
-development:
+`FMP_API_KEY` and `OPENAI_API_KEY` are **optional** — the site works without
+them thanks to the fallbacks described above. `ANTHROPIC_API_KEY` is **required
+for the AI Agent**: without it `/api/agent` returns 503 and the agent demo shows
+a "not configured" notice (an agent can't run without a live model). Copy
+`.env.example` to `.env` for local serverless development:
 
 ```bash
 # .env (do NOT commit)
 FMP_API_KEY=your_financialmodelingprep_key   # live stock data (api/stocks.js)
 OPENAI_API_KEY=your_openai_key               # LLM-backed RAG answers (api/rag.js)
+ANTHROPIC_API_KEY=your_anthropic_key         # Portfolio AI Agent (api/agent.js)
 ```
+
+The agent defaults to the `claude-opus-4-8` model (best tool-use reasoning). For
+a public demo where latency and cost matter more, change `MODEL` in
+[`api/agent.js`](api/agent.js) to `claude-haiku-4-5` or `claude-sonnet-5`.
 
 For production, set the same variables in your Vercel project under
 **Settings → Environment Variables**.
