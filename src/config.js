@@ -5,7 +5,7 @@ export const PROFILE = {
   name: 'Arpitha',
   role: 'Software Engineer',
   shortBio:
-    'Final-year Software Engineering student at the University of Technology Sydney. I build things that ship — clean React frontends, pragmatic Node backends, and increasingly, applied-AI features like retrieval-augmented generation (RAG) over real data. I care about the small details that make products feel finished.',
+    'Final-year Software Engineering student at the University of Technology Sydney. I build things that ship clean React frontends, pragmatic Node backends, and increasingly, applied-AI features like retrieval-augmented generation (RAG) over real data. I care about the small details that make products feel finished.',
   location: 'Sydney, Australia',
   university: 'University of Technology Sydney',
   degree: 'Bachelor of Software Engineering',
