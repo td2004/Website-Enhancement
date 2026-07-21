@@ -34,7 +34,7 @@ const SUGGESTIONS = [
 
 const GREETING = {
   role: 'assistant',
-  text: "Hi! I'm an AI agent for Arpitha's portfolio. Unlike a plain chatbot, I decide which tools to call — searching her portfolio, pulling live ASX stock data, or listing her GitHub repos — then answer from what I find. Ask me something and watch the tool calls appear.",
+  text: "Hi! I'm an AI agent for Arpitha's portfolio. Unlike a plain chatbot, I decide which tools to call searching her portfolio, pulling live ASX stock data, or listing her GitHub repos — then answer from what I find. Ask me something and watch the tool calls appear.",
   trace: [],
 };
 
@@ -122,7 +122,7 @@ export default function Agent() {
         Portfolio AI Agent
       </Typography>
       <Typography color="text.secondary" sx={{ maxWidth: 760, mb: 3, lineHeight: 1.7 }}>
-        An agent — not just a chatbot. It reasons about your question, decides
+        An agent not just a chatbot. It reasons about your question, decides
         which tools to call (portfolio search, live stock data, or my GitHub
         repos), runs them, and answers from the results. Every tool call is shown
         so you can see it think and act.
@@ -229,7 +229,7 @@ export default function Agent() {
                 <Step
                   n={3}
                   title="Loop until done"
-                  body="It can call several tools across multiple steps — chaining them together — before it has enough to answer."
+                  body="It can call several tools across multiple steps chaining them together before it has enough to answer."
                 />
                 <Step
                   n={4}
